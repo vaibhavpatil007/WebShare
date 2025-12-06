@@ -2,6 +2,32 @@
 ![image](https://github.com/user-attachments/assets/d70e03b7-1963-4197-9d32-a0f3587e5700)
 
 WebShare is a fast, secure, and lightweight file-sharing solution designed specifically for developers and tech teams. It enables quick file transfers over your local network—no sign-ins, no internet dependency. Your data stays private and within your network.
+# Installation
+Clone the repository
+  git clone https://github.com/vaibhavpatil007/WebShare.git
+>FrontEnd:
+  - Folder Structure FileshareFE/webshare
+  - npm install
+  - npm start
+>Backend:
+  - Folder structure  webshare/webshare
+  - python -m venv venv
+  - On Windows:
+  venv\Scripts\activate
+  On Mac/Linux:
+  source venv/bin/activate
+  - pip install -r requirements.txt
+  - python manage.py migrate
+  - python manage.py createsuperuser
+  - python manage.py runserver
+
+# Contributing
+
+Fork the repository
+>Create a new branch (git checkout -b feature/xyz)
+>Make changes and commit (git commit -m "Description")
+>Push to your branch (git push origin feature/xyz)
+>Open a Pull Request
 
 # Features
 > Create unique endpoints to start a file-sharing session.
